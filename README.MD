@@ -105,4 +105,4 @@ Plugin created to support content creators and SEO-focused game websites.
 ## 🧠 Contributions & Support
 
 Suggestions and bug reports welcome!
-Please submit issues or pull requests on [GitHub](https://github.com/your-username/dynamic-game-pages/issues)
+Please submit issues or pull requests on [GitHub](https://github.com/ozeppo/dynamic-games-pages/issues)
