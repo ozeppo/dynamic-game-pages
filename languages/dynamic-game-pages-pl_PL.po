@@ -1,0 +1,185 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Dynamic Game Pages\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-07-22 18:10+0000\n"
+"PO-Revision-Date: 2025-07-22 18:18+0000\n"
+"Last-Translator: Filip Chmielecki\n"
+"Language-Team: Polski\n"
+"Language: pl_PL\n"
+"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10 >= 2 && n%10<=4 "
+"&&(n%100<10||n%100 >= 20)? 1 : 2);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Loco-Version: 2.8.0; wp-6.8.2; php-8.3.22\n"
+"X-Domain: dynamic-game-pages"
+
+#: dynamic-game-pages.php:253
+msgid "About the game"
+msgstr "O grze"
+
+#: includes/settings-page.php:18
+msgid "Accent Color"
+msgstr "Kolor akcentu"
+
+#: includes/settings-page.php:21
+msgid "Accent color for borders and buttons (e.g., #0073aa)."
+msgstr "Kolor akcentu dla obramowania i przycisków (np. #0073aa)."
+
+#: dynamic-game-pages.php:345
+msgid ""
+"After changing the slug, remember to go to Settings > Permalinks and click "
+"\"Save Changes\" to refresh rewrite rules."
+msgstr ""
+"Po zmianie slug pamiętaj, aby przejść do Ustawienia > Permalinki i kliknąć "
+"„Zapisz zmiany”, aby odświeżyć reguły przepisywania."
+
+#: includes/settings-page.php:49
+msgid "Answer 1 (release in the future)"
+msgstr ""
+
+#: includes/settings-page.php:42
+msgid "Answer 1 (release in the past)"
+msgstr ""
+
+#: includes/settings-page.php:63
+msgid "Answer 2"
+msgstr "Odpowiedź 2"
+
+#: includes/settings-page.php:45
+msgid ""
+"Answer for question 1 when the release has already taken place. Use %title "
+"and %date as placeholders."
+msgstr ""
+
+#: includes/settings-page.php:52
+msgid ""
+"Answer for question 1 when the release is in the future. Use %title and "
+"%date as placeholders."
+msgstr ""
+
+#: includes/settings-page.php:66
+msgid "Answer for question 2. Use %title and %requirements as placeholders."
+msgstr ""
+
+#: includes/shortcode-banner.php:6
+msgid "Buy on Steam"
+msgstr "Kup na Steam"
+
+#: dynamic-game-pages.php:239
+msgid "Developer:"
+msgstr "Deweloper:"
+
+#. Name of the plugin
+msgid "Dynamic Game Pages"
+msgstr ""
+"Dynamic Game Pages\n"
+
+#: includes/settings-page.php:5
+msgid "Dynamic Game Pages - Settings"
+msgstr "Dynamic Game Pages - Ustawienia"
+
+#: includes/settings-page.php:14
+msgid ""
+"Enter a custom base slug for game pages (e.g., \"games\"). After changing "
+"the slug, go to Settings > Permalinks and click \"Save Changes\"."
+msgstr ""
+"Wprowadź niestandardowy slug bazowy dla stron z grami (np. \"gry\"). Po "
+"zmianie slugu, przejdź do Ustawienia > Permalinki i kliknij \"Zapisz "
+"zmiany\"."
+
+#: dynamic-game-pages.php:270
+msgid "FAQ"
+msgstr "FAQ"
+
+#: includes/settings-page.php:32
+msgid "FAQ Configurator"
+msgstr "Konfigurator FAQ"
+
+#. Author of the plugin
+msgid "Filip Chmielecki"
+msgstr "Filip Chmielecki"
+
+#: includes/settings-page.php:38
+msgid ""
+"First FAQ question. You can use %title as a placeholder for the game name."
+msgstr ""
+"Pierwsze pytanie FAQ. Możesz użyć %title jako symbolu zastępczego dla nazwy "
+"gry."
+
+#: includes/settings-page.php:11
+msgid "Game Page Slug"
+msgstr "Slug strony gier"
+
+#. Description of the plugin
+msgid ""
+"Generates dynamic game pages with Steam API for better SEO performacne on "
+"your Website."
+msgstr ""
+"Generuje dynamiczne strony gier za pomocą Steam API dla lepszej wydajności "
+"SEO w witrynie."
+
+#: dynamic-game-pages.php:233
+msgid "Genre:"
+msgstr "Gatunek:"
+
+#: includes/settings-page.php:28
+msgid "Language code for Steam API requests (e.g., \"en\", \"pl\", \"de\")."
+msgstr ""
+"Język dla zapytań do Steam API (np., \"english\", \"polish\", \"spanish\").\n"
+
+#: dynamic-game-pages.php:260
+msgid "Minimum"
+msgstr "Minimum"
+
+#: dynamic-game-pages.php:82 dynamic-game-pages.php:83
+#: dynamic-game-pages.php:84
+msgid "No data"
+msgstr "Brak danych"
+
+#: dynamic-game-pages.php:242
+msgid "Price:"
+msgstr "Cena:"
+
+#: dynamic-game-pages.php:236
+msgid "Publisher:"
+msgstr "Wydawca:"
+
+#: includes/settings-page.php:35
+msgid "Question 1"
+msgstr "Pytanie 1"
+
+#: includes/settings-page.php:56
+msgid "Question 2"
+msgstr "Pytanie 2"
+
+#: dynamic-game-pages.php:264
+msgid "Recommended"
+msgstr "Rekomendowane"
+
+#: dynamic-game-pages.php:230
+msgid "Release date:"
+msgstr "Data wydania:"
+
+#: includes/settings-page.php:59
+msgid ""
+"Second FAQ question. You can use %title as a placeholder for the game name."
+msgstr ""
+
+#: dynamic-game-pages.php:311
+msgid "Slug for dynamic game pages base URL"
+msgstr ""
+
+#: includes/settings-page.php:25
+msgid "Steam API Language"
+msgstr "Język Steam API"
+
+#: dynamic-game-pages.php:257
+msgid "System Requirements"
+msgstr "Wymagania Sprzętowe"
+
+#: dynamic-game-pages.php:34
+msgid "The game was not found"
+msgstr "Ta gra nie została znaleziona"
