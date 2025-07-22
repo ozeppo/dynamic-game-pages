@@ -22,7 +22,7 @@
 1. Download or clone the plugin:
 
    ```bash
-   git clone https://github.com/ozeppo/dynamic-game-pages.git
+   git clone https://github.com/ozeppo/dynamic-games-pages.git
    ```
 2. Copy the folder into your WordPress `/wp-content/plugins/` directory
 3. Go to **Plugins > Installed Plugins** in WordPress and activate "Dynamic Game Pages"
