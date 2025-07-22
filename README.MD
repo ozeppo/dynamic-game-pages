@@ -13,6 +13,8 @@
 * Supports multiple languages (based on Steam data availability)
 * Outputs Schema.org FAQ & VideoGame JSON-LD for rich search results
 
+![Dynamic ganerated game page](https://i.imgur.com/9TVUf9B.png)
+
 ---
 
 ## 📦 Installation
@@ -48,6 +50,8 @@ Available settings:
 ## 🧹 Shortcode
 
 Use this shortcode anywhere in your site:
+
+![Dynamic ganerated game banner with Steam price](https://i.imgur.com/hWchnoa.png)
 
 ```php
 [game_banner appid="1091500" button="Buy on Steam"]
