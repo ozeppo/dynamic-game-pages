@@ -3,7 +3,7 @@
  * Plugin Name: Dynamic Game Pages
  * Description: Generates dynamic game pages with Steam API for better SEO performacne on your Website.
  * Plugin URI: https://github.com/ozeppo/dynamic-games-pages
- * Version: 1.0
+ * Version: 1.1
  * Author: Filip Chmielecki
  * Author URI: https://filipchmielecki.pl/
  * Text Domain: dynamic-game-pages
@@ -16,6 +16,48 @@ add_action('plugins_loaded', function() {
 
 require_once plugin_dir_path(__FILE__) . 'includes/settings-page.php';
 require_once plugin_dir_path(__FILE__) . 'includes/shortcode-banner.php';
+
+// Register Elementor element
+add_action('elementor/widgets/widgets_registered', function($widgets_manager) {
+    require_once __DIR__ . '/includes/class-dgp-elementor-widget.php';
+    $widgets_manager->register(new \DGP_Elementor_Game_Banner());
+});
+
+// Register Gutenberg block
+add_action('init', function () {
+    $block_js = plugin_dir_path(__FILE__) . 'build/index.js';
+    $block_asset = plugin_dir_path(__FILE__) . 'build/index.asset.php';
+
+    if (!file_exists($block_js) || !file_exists($block_asset)) {
+        return;
+    }
+
+    $asset = include $block_asset;
+
+    wp_register_script(
+        'dgp-block-banner',
+        plugins_url('build/index.js', __FILE__),
+        $asset['dependencies'],
+        $asset['version']
+    );
+
+    register_block_type('dgp/game-banner', [
+        'editor_script'   => 'dgp-block-banner',
+        'render_callback' => 'dgp_render_game_banner_block',
+        'attributes'      => [
+            'appid' => ['type' => 'string'],
+            'button' => ['type' => 'string'],
+        ],
+    ]);
+});
+
+function dgp_render_game_banner_block($attributes) {
+    $appid = isset($attributes['appid']) ? esc_attr($attributes['appid']) : '';
+    $button = isset($attributes['button']) ? esc_html($attributes['button']) : '';
+    return do_shortcode("[game_banner appid=\"$appid\" button=\"$button\"]");
+}
+
+// Add rewrite rules for dynamic game pages
 
 add_action('init', 'dgp_add_rewrite');
 function dgp_add_rewrite() {
