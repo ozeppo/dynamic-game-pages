@@ -12,6 +12,8 @@
 * Editable color theme and FAQ text
 * Supports multiple languages (based on Steam data availability)
 * Outputs Schema.org FAQ & VideoGame JSON-LD for rich search results
+* Native Gutenberg block to insert banners without using shortcodes
+* Elementor widget for drag-and-drop banner integration
 
 ![Dynamic ganerated game page](https://i.imgur.com/9TVUf9B.png)
 
@@ -47,7 +49,7 @@ Available settings:
 
 ---
 
-## 🧹 Shortcode
+## 🧹 Shortcode & Block Support
 
 Use this shortcode anywhere in your site:
 
@@ -57,10 +59,13 @@ Use this shortcode anywhere in your site:
 [game_banner appid="1091500" button="Buy on Steam"]
 ```
 
-Options:
+### Gutenberg & Elementor support
 
-* `appid` (required) – Steam App ID
-* `button` (optional) – custom button label
+This plugin also includes:
+- A Gutenberg block called “Game Banner” you can insert directly into posts/pages
+- An Elementor widget for visual page building
+
+Both options work the same way as the shortcode and use the same output logic.
 
 ---
 
