@@ -20,7 +20,7 @@ registerBlockType('dgp/game-banner', {
         />
         <TextControl
           label="Button Label"
-          value={attributes.button}
+          value={attributes.button || 'Buy on Steam'}
           onChange={(val) => setAttributes({ button: val })}
         />
       </>
